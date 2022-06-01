@@ -3,10 +3,10 @@ import './index.css';
 import { App } from './components/App/App';
 import LogRocket from 'logrocket';
 
-import * as desertlion from '@desertlion/sdk';
+import * as desertlionSdk from '@desertlion/sdk';
 
 LogRocket.init('fuqjol/eyal-cohen');
-desertlion.init({
+desertlionSdk.init({
   appId: '123',
 });
 
